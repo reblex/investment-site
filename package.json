@@ -1,0 +1,51 @@
+{
+  "name": "investment-site",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "report-coveralls": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "hbs": "~4.0.1",
+    "morgan": "~1.9.0",
+    "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^4.1.10",
+    "coveralls": "^3.0.0",
+    "csslint": "^1.0.5",
+    "eslint": "^4.11.0",
+    "eslint-plugin-react": "^7.5.1",
+    "html-minifier": "^3.5.6",
+    "istanbul": "^0.4.5",
+    "javascript-style-guide": "^0.9.10",
+    "js-yaml": "^3.10.0",
+    "jscs": "^3.0.7",
+    "jsonlint": "^1.6.2",
+    "mocha": "^4.0.1",
+    "nyc": "^11.3.0",
+    "postcss-sass": "^0.2.0",
+    "stylelint": "^8.2.0",
+    "uglify-js": "^3.1.10"
+  },
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reblex/investment-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reblex/investment-api/issues"
+  },
+  "homepage": "https://github.com/reblex/investment-api#readme"
+}
